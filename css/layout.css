@@ -1,0 +1,414 @@
+/* CSS Document */
+
+/*----------estilos del slider-----------*/
+
+.carousel-item {
+    background-attachment: fixed;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+    z-index: 2;
+}
+
+.nuevosCursos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: auto;
+    height: auto;
+    z-index: 2;
+    transition: all 1s;
+}
+
+.nuevosCursos a {
+    text-decoration: none;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    background: rgba(72, 72, 72, 0.18);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.nuevosCursos a:hover {
+    color: aliceblue;
+    border: none;
+    background: #2772ff;
+    box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.52);
+}
+
+.contentFeatured:nth-child(1) {}
+
+.nosotros {
+    background: rgb(245, 245, 245);
+   
+}
+
+.nosotrosLeft {
+    background: #2772ff;
+    height: auto;
+    width: 100%;
+    
+}
+
+.nosotrosRight {
+    padding-left: 20px;
+    padding-bottom: 50px;
+     padding-top: 70px;
+}
+.nosotrosRight h2{
+    font-size: 25px;
+    color: #4b4b4b;
+}
+#listado1, #listado2{
+    margin-left: 30px;
+}
+#lista2{
+     margin-left: 10px;
+}
+
+.footer {
+    background: #FAFAFA;
+    height: 400px;
+}
+
+/*---------INTERIOR---------------*/
+
+.cursos {
+    padding-bottom: 50px;
+    background: rgba(227, 227, 227, 0.59);
+
+}
+.cursos h3{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #ffffff;
+    background: #2772ff;
+}
+#agregarCursos .card{
+    background-color: transparent;
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#agregarCursos .card .cardInterna{
+    background: #fff;
+    transition: all 1s;
+}
+
+#agregarCursos .card .cardInterna:hover {
+    
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.37);
+    transform: scaleY(12px);
+    z-index: 2;
+}
+
+#agregarCursosYautepec .card{
+    background-color: transparent;
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#agregarCursosYautepec .card .cardInterna{
+    background: #fff;
+    transition: all 1s;
+}
+
+#agregarCursosYautepec .card .cardInterna:hover {
+    
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.37);
+    transform: scaleY(12px);
+    z-index: 2;
+}
+
+#agregarTemarios .card{
+    margin-top: 30px;
+    transition: all 1s;
+}
+#agregarTemarios .card:hover {
+    
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.37);
+    transform: scaleY(12px);
+    z-index: 2;
+}
+.parallax {
+    height: auto;
+    background-image: url(../img/sliders/slider3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.capaTransparente {
+    background: rgba(0, 0, 0, 0.53);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.parallaxTexto {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: aliceblue;
+}
+
+.card-title-t {
+    color: #f5f5f5;
+    background: rgba(0, 0, 0, 0.72);
+    padding: 8px;
+    text-align: center;
+}
+
+.card-text-t {
+    color: #333333;
+    text-align: justify;
+}
+
+#btnTemarios {
+    position: relative;
+    z-index: 100;
+}
+
+#text-slider {
+    font-size: 25px;
+}
+.sedes{
+    background: #ffffff;
+    padding-top: 5px;
+}
+.sedes h4, h5{
+    color: #9f9f9f;
+}
+.sedes ul{
+list-style:none;
+}
+
+
+@media (min-width: 1280px) {
+#mapa1 {
+  height: 600px;
+}
+#mapa2{
+ height: 600px;
+}
+
+
+}
+@media (max-width: 700px) {
+#pincho{
+    width: 300px;
+}
+
+
+}
+@media (max-width: 1280px) {
+    /*===Timeline*/
+    .nuevosCursos {
+        top: 60%;
+    }
+    #mapa1 {
+  height: 500px;
+ 
+}
+#mapa2{
+ height: 500px;
+
+}
+ 
+}
+
+@media (max-width: 1020px) {
+    /*===Timeline*/
+    .nuevosCursos {
+        top: 65%;
+    }
+        #mapa1 {
+  height: 400px;
+ 
+}
+#mapa2{
+ height: 400px;
+
+}
+ 
+}
+
+@media (max-width: 900px) {
+    /*===Timeline*/
+    .nuevosCursos {
+        top: 75%;
+    }
+        #mapa1 {
+  height: 350px;
+ 
+}
+#mapa2{
+ height: 350px;
+
+}
+}
+
+@media (max-width: 800px) {
+    /*===Timeline*/
+    .nuevosCursos {
+        top: 85%;
+    }
+}
+
+@media (max-width: 767px) {
+    /*===Timeline*/
+    #text-slider {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    /*===Timeline*/
+    #titulo-slider {
+        display: none;
+    }
+    .nuevosCursos {
+        top: 60%;
+        font-size: 15px;
+    }
+    #menuStike {
+        transition: all 1.4s;
+        top: 0px;
+    }
+}
+#indexLogo {
+    max-width: 120px;
+}
+.nav-item a {
+    font-size: 20px;
+}
+.nosotrosRight p{
+    text-align: justify;
+}
+
+#tituloMapa1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #868686;
+      background: #fff;
+}
+#tituloMapa2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #808080;
+    background: #fff;
+    
+}
+#mapa1 {
+  width: 100%;
+}
+#mapa2{
+ width: 100%;
+}
+.imagenMapa{
+    padding-top: 20px;
+    width: 100%;
+    background: #050505;     
+}
+.imagenMapa img{
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.contenidoMapa h1{
+    font-size: 20px;
+    text-align: center;
+    color: #696969;
+}
+.contenidoMapa p{
+    font-size: 15px;
+    text-align: justify;
+    color: #696969;
+    margin-bottom: 10px;
+}
+.contenidoMapa span{
+    width: auto;
+    cursor: pointer;
+    color: #0062ff;
+    font-size: 15px;
+}
+#cursos{
+    padding-top: 65px;
+}
+#sedes{
+padding-top: 70px;
+background: rgba(227, 227, 227, 0.59);
+}
+.page-footer h5{
+    position: relative;
+    top: -25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: rgb(39, 114, 255);
+    color: #ffffff;
+}
+footer{
+     background: rgba(11, 11, 11, 0.9);
+    color: aliceblue;
+}
+.list-unstyled a{
+    text-decoration: none;
+}
+.list-unstyled .icon-facebook{
+    
+    font-size: 30px;
+    color: #bfbfbf; 
+}
+.list-unstyled .icon-fa-google-plus{
+    font-size: 30px;
+     color: #bfbfbf;
+}
+.list-unstyled .icon-fa-linkedin{ 
+    font-size: 30px;
+    color: #bfbfbf; 
+}
+.list-unstyled .icon-facebook:hover{
+   transform-origin: bottom scale(2, 0.5);
+    color: #ffffff; 
+}
+.list-unstyled .icon-fa-linkedin:hover{
+   transform-origin: bottom scale(2, 0.5);
+    color: #ffffff; 
+}
+.list-unstyled .icon-fa-google-plus:hover{
+   transform-origin: scale(2, 0.5) bottom ;
+    color: #ffffff; 
+}
+.footer-copyright{
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.88);
+}
+

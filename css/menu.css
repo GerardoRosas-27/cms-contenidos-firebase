@@ -1,0 +1,71 @@
+/* CSS Document */
+.menu{
+    position: absolute;
+    top: 50px;
+	transition:all 1.4s;
+	width:100%;
+    z-index:3000;
+}
+.icon-menu{
+    color: aliceblue;
+    font-size: 35px;
+}
+.menu-fijo{    
+	position:fixed;
+	transition:all 1.4s;
+    background:rgba(0, 0, 0, 0.87);
+	width:100%;
+	z-index:300;	
+}
+.nav-item{
+	margin-right:  10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	transition:all 1.4s;
+}
+.nav-item .nav-color{
+	text-decoration:none;
+	margin:10px;
+    color: #ffffff;
+    font-size: 16x;
+    font-family:Open Sans;
+    font-weight: Bold;
+}
+.nav-item:after{
+  content: "";
+  height: 3px;
+  left: 0;
+  bottom: 0px;
+  width: 0px;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: #2772ff;
+}
+@media (min-width: 992px) {
+  .nav-item:hover:after {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .nav-item:hover{
+   background:rgba(50,50,50,0.60);
+  }
+}
+
+.dropdown-menu{
+	
+	background:rgba(50,50,50,0.80);
+	border-bottom:3px solid rgb(59, 133, 255);
+		
+}
+.dropdown-item{
+    color: #ffffff;
+    font-size: 16x;
+    font-family:Open Sans;
+    font-weight: Semibold;
+}
+.dropdown-item:hover{
+	transition:all 1s;
+	background:rgba(50,50,50,0.60);
+	color:#999;
+}

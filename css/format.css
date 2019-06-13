@@ -1,0 +1,75 @@
+/* CSS Document */
+/*---------index---------- */
+.carousel-caption h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.carousel-caption p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family:Open Sans;
+    font-weight: normal;
+}
+#indexLeft h1{
+    color: #252630;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: normal;
+}
+#indexLeft p{
+    color: #3D3E4D;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+
+
+/*---------INTERIOR---------- */
+.parallax-text h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.parallax-text p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family:Open Sans;
+    font-weight: normal;
+}
+
+#interiorLeft h1{
+    color: #252630;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: normal;
+}
+#interiorLeft h2{
+    color: #434556;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: normal;
+}
+#interiorLeft p{
+    color: #3D3E4E;
+    font-size:16px;
+    font-family: Arial;
+    font-weight: normal;
+}
+#interiorLeft li{
+    left: 30px;
+    color: #434555;
+    font-size:16px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.copyright p{
+    
+     color: #939699;
+    font-size:14px;
+    font-family: Arial;
+    font-weight: normal;
+}
